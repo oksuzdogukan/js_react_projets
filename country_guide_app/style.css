@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1f2038;
+}
+.container{
+    background-color: #fff;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px auto 40px;
+    padding: 30px;
+}
+.search-bar{
+    padding: 5px 10px;
+}
+.search-bar input{
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 70px;
+    font-size: 20px;
+}
+.search-btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1f2038;
+    color: #fff;
+    cursor: pointer;
+}
+.search-btn:hover{
+    opacity: 0.9;
+}
+.search-btn:active{
+    opacity: 0.6;
+}
+
+/* Country-İnfo */
+.country-info{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: left;
+    display: none;
+}
+.country-img{
+    display: block;
+    width: 45%;
+    margin: 10px auto;
+}
+.country-info h2{
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+.country-info h4{
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+}
+.country-info span{
+    font-size: 18px;
+}
+.data-wrapper{
+    margin:10px 20px ;
+}
+
+/* Search Error */
+.search-error{
+    background-color: rgba(224, 56, 56, 0.855);
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    display: none;
+}
